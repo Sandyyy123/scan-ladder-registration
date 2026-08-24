@@ -1,0 +1,4 @@
+numpy>=1.24
+scipy>=1.10
+open3d>=0.17   # optional: enables DBSCAN clustering + point-to-plane ICP.
+               # The pipeline falls back to a pure-numpy/scipy path if absent.
